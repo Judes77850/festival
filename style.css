@@ -1,0 +1,238 @@
+header {
+  background-image: url(img/sunset.gif);
+  background-position-y: 50%;
+  background-size: cover;
+  height: 100vh;
+}
+header .for-gradient {
+  background: rgb(2, 0, 36);
+  height: 100%;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 2%, rgba(0, 0, 0, 0) 40%);
+}
+header .logo-box {
+  width: 10%;
+  min-width: 150px;
+}
+header .logo-box .logo {
+  width: 100%;
+  margin: 10px;
+}
+header .nav-link {
+  color: rgb(255, 255, 255);
+}
+header .nav-link:hover {
+  color: rgb(250, 223, 112);
+}
+header .nav-link.active {
+  color: rgb(250, 223, 112);
+}
+header #accordion {
+  max-width: 400px;
+  text-align: center;
+}
+header #accordion .card {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+header #accordion .card button {
+  color: rgb(250, 223, 112);
+  text-decoration: none;
+}
+header .newsletter-part {
+  color: white;
+  padding: 10px;
+}
+header .fa-chevron-down {
+  font-size: 80px;
+  color: rgb(250, 223, 112);
+}
+
+.header-mini {
+  background-image: none;
+  height: 56px;
+}
+.header-mini .for-gradient {
+  background: rgb(0, 0, 0);
+  height: 100%;
+}
+.header-mini .logo-box .logo {
+  width: 100px;
+  margin: 10px;
+}
+.header-mini .nav-link {
+  color: white;
+}
+.header-mini .nav-link:hover {
+  color: rgb(250, 223, 112);
+}
+.header-mini .nav-link.active {
+  color: rgb(250, 223, 112);
+}
+
+.intro {
+  max-width: 1200px;
+}
+
+.frise {
+  margin: auto;
+  width: 70%;
+  max-width: 600px;
+  min-width: 400px;
+}
+
+.black {
+  background-color: black;
+}
+
+.logo-yellow {
+  background-color: rgb(250, 223, 112);
+}
+
+.color-3 {
+  background-color: #fedbcf;
+}
+
+.color-4 {
+  background-color: #a6dbc7;
+}
+
+.color-5 {
+  background-color: #ecd7f5;
+}
+
+.color-6 {
+  background-color: #ffc6bf;
+}
+
+.color-7 {
+  background-color: #ffbd81;
+}
+
+.title {
+  font-family: caveat;
+}
+
+.date {
+  font-style: italic;
+  text-decoration: underline;
+  font-family: caveat;
+  font-size: 30px;
+}
+
+.find-us form {
+  width: 100%;
+  max-width: 600px;
+}
+
+.actus {
+  margin: 0px 0 0px 0;
+  background-image: url(img/actus-bg.jpg);
+  background-size: cover;
+  color: white;
+}
+.actus .to-opacity {
+  background: linear-gradient(170deg, rgba(255, 255, 255, 0.22) 0%, rgb(0, 0, 0) 75%, rgb(0, 0, 0) 40%);
+}
+.actus .actu {
+  color: white;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a i {
+  font-size: 40px;
+  margin: 10px;
+  color: rgb(250, 223, 112);
+  transition-duration: 300ms;
+}
+footer a :hover {
+  transform: scale(1.2);
+  transition-duration: 300ms;
+}
+
+.film-list {
+  background-color: black;
+}
+
+.film-info {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 10px;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 40rem;
+  overflow: hidden;
+}
+.carousel-item img {
+  width: 100%;
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+.carousel-control-next-icon {
+  color: black;
+}
+
+.film-detail {
+  width: 100%;
+  height: 60rem;
+}
+.film-detail .to-opacity {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 60%, rgb(0, 0, 0) 40%);
+  color: white;
+  padding: 10px;
+}
+
+.reservation {
+  background-image: url(img/resa.jpg);
+  background-size: cover;
+}
+.reservation .to-opacity {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 75%, rgb(0, 0, 0) 100%);
+}
+.reservation .to-opacity form {
+  color: white;
+  max-width: 700px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 15px;
+}
+
+.scarface {
+  background-image: url(img/scarface.jpg);
+  background-size: cover;
+}
+
+.e-t {
+  background-image: url(img/et.jpg);
+  background-size: cover;
+}
+
+.gendarme {
+  background-image: url(img/gendarme.jpeg);
+  background-size: cover;
+}
+
+.ghost-busters {
+  background-image: url(img/ghostbusters.jpg);
+  background-size: cover;
+}
+
+.back-to-futur {
+  background-image: url(img/back-to-futur.jpg);
+  background-size: cover;
+}
+
+.good-morning-england {
+  background-image: url(img/good-morning-england.jpg);
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
